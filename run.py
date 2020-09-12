@@ -16,7 +16,7 @@ def run():
     spotify_client = SpotifyClient(spotify_cred["spotify_token"])
 
     img_location = input("Enter location of image file: ")
-    txt_file = "sample.txt"
+    txt_file = "sample.txt" # make a dump file
     txt_location = image_converter.extract_text(img_location, txt_file)
     playlist_name = input("Enter a name for your new playlist: ")
     playlist_id = spotify_client.create_new_playlist(playlist_name)
