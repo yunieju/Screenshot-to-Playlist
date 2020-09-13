@@ -1,6 +1,9 @@
 # Sceenshot to Playlist
 Extract songs from a screenshot image and generate a Spotify playlist
 
+<img src="demo.jpg" alt="demo img" width="70%"/>
+
+
 ## Technologies 
 - Spotify API
 - Pytesseract library (Optical Character Recognition(OCR) tool)
